@@ -13,7 +13,7 @@ public class WhatToWear {
 //      if sunny take sunglasses
         String result = weather.equals("sunny") ? "take sunglasses!" : "no need for sunglasses!";
 
-//      if >35 it is too hot or too cold
+//      if >35 it is too hot or if <-5 it is too cold
         if (temperature > 35 || temperature < -5) {
             System.out.println("It's not safe to go outside!");
 //      if rainy, snowy or <15 take a coat
